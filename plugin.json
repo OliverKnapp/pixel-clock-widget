@@ -1,0 +1,13 @@
+{
+    "id": "pixelClock",
+    "name": "Pixel Clock",
+    "description": "Google Pixel Android Material You Clock & At-a-Glance widget with live calendar & weather",
+    "version": "1.0.0",
+    "author": "Oliver",
+    "icon": "schedule",
+    "type": "desktop",
+    "capabilities": ["desktop-widget"],
+    "component": "./PixelClockWidget.qml",
+    "requires_dms": ">=1.6.0",
+    "permissions": ["settings_read", "settings_write"]
+}
